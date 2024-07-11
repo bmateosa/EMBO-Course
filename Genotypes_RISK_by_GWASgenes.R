@@ -1,9 +1,9 @@
 ################### HIGH-LOW - GENOTYPES FROM RISK study ##################
 
-####### We selected top genes from IBD GWAS, and we want to see if there are transcriptomics differences between
-####### homocygous patients with high risk and homocygous patients with no risk.
+####### We selected top genes from inflammatory bowel disease (IBD) GWAS, and we want to see if there are transcriptomics differences between
+####### homocygous patients with high IBD risk and homocygous patients with no IBD risk.
 ####### We use two methods to select SNPs: Top CS2G and the closest SNP to the gene.
-###### Genotypes and expression was analyzed from the RISK cohort
+###### Genotypes and expression was analyzed from the RISK transcriptomics cohort
 
 library(stringr)
 library(DESeq2)
